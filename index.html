@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7e8df">
+<meta name="description" content="A little birthday experience made especially for Atene.">
+<title>For Atene. A birthday collection</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="locked">
+<div class="access-gate" id="accessGate">
+  <form class="access-card" id="accessForm">
+    <p class="eyebrow">A LITTLE SOMETHING JUST FOR YOU</p>
+    <div class="gate-flower" aria-hidden="true">✿</div>
+    <h1>Before you<br><em>come in.</em></h1>
+    <p class="gate-copy">There's a tiny password first. You should know this one...</p>
+    <label class="sr-only" for="accessPassword">Enter the password</label>
+    <input id="accessPassword" type="password" placeholder="Enter the secret password" autocomplete="off" required>
+    <button class="primary-button" type="submit">UNLOCK YOUR CARD <span>↗</span></button>
+    <p class="gate-error" id="gateError" role="alert" aria-live="polite"></p>
+    <p class="gate-footnote">A birthday surprise, made just for Atene ♥</p>
+  </form>
+</div>
+<div class="grain"></div>
+<header class="topbar">
+  <a class="wordmark" href="#top">FOR ATENE<span>.</span></a>
+  <div class="top-actions">
+    <button class="sound-button" id="musicToggle" type="button" aria-label="Stop music">♫ <span>Music on</span></button>
+    <button class="menu-button" id="menuToggle" type="button" aria-label="Open contents">Contents <span>☰</span></button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero section-shell">
+  <div class="hero-kicker"><span class="tiny-star">✳</span> A PERSONAL BIRTHDAY COLLECTION <span class="tiny-star">✳</span></div>
+  <div class="hero-inner">
+    <p class="eyebrow">26 NOVEMBER 2026</p>
+    <h1>For <em>Atene.</em></h1>
+    <p class="hero-subtitle">A friendship worth celebrating.</p>
+    <div class="hero-flower" aria-hidden="true">✿</div>
+    <p class="hero-note">Almost three years of memories, madness and absolutely endless yapping.</p>
+    <button class="primary-button" id="beginButton" type="button">EXPLORE OUR STORY <span>↓</span></button>
+  </div>
+  <div class="hero-bottom"><span>MADE WITH LOTS OF LOVE</span><span>EST. 2024</span></div>
+</section>
+
+<section class="intro section-shell reveal">
+  <p class="eyebrow">BEFORE WE BEGIN</p>
+  <h2>OMGGGG ALMOST 3 YRRRSSS<br><em>OF KNOWING EACH OTHERRRR.</em></h2>
+  <p class="intro-copy">From Year 7 induction day to now. Who would've thought we'd end up becoming this close??? Definitely not me LMAOOOO.</p>
+  <div class="intro-stamp">2024<br><span>TO</span><br>2026</div>
+</section>
+
+
+
+<section class="timeline-section section-shell reveal">
+  <p class="eyebrow">THE FRIENDSHIP LORE</p>
+  <h2>Three years.<br><em>So much lore.</em></h2>
+  <div class="timeline">
+    <article><span>2024</span><div><h3>The beginning</h3><p>Year 7. Induction day. Absolutely no idea what was coming.</p></div></article>
+    <article><span>2025</span><div><h3>The plot thickens</h3><p>More memories, more conversations, more random nonsense.</p></div></article>
+    <article><span>2026</span><div><h3>Still going strong</h3><p>Still yapping, still playing Roblox, still investigating things and still being absolute idiots.</p></div></article>
+    <article class="timeline-future"><span>2027+</span><div><h3>To be continued</h3><p>Here's to many more years of this absolute nonsenseeeee.</p></div></article>
+  </div>
+</section>
+
+<section class="chapters section-shell" id="chapters">
+  <div class="section-heading reveal">
+    <p class="eyebrow">THE ACTUAL CARD</p>
+    <h2>Rightttt, where do I<br><em>even begin?</em></h2>
+    <p>Every chapter is a little piece of our friendship. Tap one to read it.</p>
+  </div>
+  <div class="chapter-list" id="chapterList"></div>
+</section>
+
+<section class="awards-section section-shell reveal">
+  <div class="award-top">✳ THE OFFICIAL CEREMONY ✳</div>
+  <p class="eyebrow">NOVEMBER 2026</p>
+  <h2>The Atene<br><em>Awards.</em></h2>
+  <p class="award-copy">AFTER EXTENSIVE RESEARCH, NUMEROUS INVESTIGATIONS AND ABSOLUTELY NO PROFESSIONAL QUALIFICATIONS.</p>
+  <div class="trophy">🏆</div>
+  <p class="award-footer">Your awards are non refundable and cannot be exchanged.</p>
+</section>
+
+<section class="future-section section-shell reveal">
+  <p class="eyebrow">A NOTE TO FUTURE US</p>
+  <h2>PLEASE LET US<br><em>STILL BE THIS CHAOTIC.</em></h2>
+  <p>I hope we'll still find time to catch up, bring up completely random incidents and laugh about absolutely everything.</p>
+  <div class="future-seal">AUTOMATIC<br><strong>RENEWAL ON</strong></div>
+</section>
+
+<section class="closing section-shell reveal" id="closing">
+  <div class="closing-flower">✿</div>
+  <p class="eyebrow">ONE LAST THING</p>
+  <h2>HAPPYYYY<br><em>BIRTHDAYYYYY</em><br>ATENEEEEEE.</h2>
+  <p class="closing-copy">Thank u for everythingggg. Thank u for being my hggg. I appreciate u more than u probably realise, and I'm genuinely so glad I met u.</p>
+  <button class="primary-button" id="letterButton" type="button">OPEN THE LAST MESSAGE <span>↗</span></button>
+  <div class="closing-signoff">LOVE YOUUUUU HG <span>♥</span></div>
+</section>
+</main>
+
+<footer><span>FOR ATENE.</span><span>26 · 11 · 2026</span><span>MADE WITH CARE</span></footer>
+
+<div class="chapter-modal" id="chapterModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="true"></div>
+  <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close chapter">×</button>
+    <p class="eyebrow" id="modalNumber"></p>
+    <h2 id="modalTitle"></h2>
+    <div class="modal-content" id="modalContent"></div>
+    <div class="modal-footer"><span>FOR ATENE.</span><button id="nextChapter" type="button">NEXT CHAPTER →</button></div>
+  </article>
+</div>
+
+<div class="contents-panel" id="contentsPanel" aria-hidden="true">
+  <div class="contents-backdrop" data-menu-close="true"></div>
+  <nav class="contents-inner"><button id="contentsClose" class="contents-close">CLOSE ×</button><p class="eyebrow">JUMP TO A CHAPTER</p><div id="contentsLinks"></div></nav>
+</div>
+
+<div class="letter-modal" id="letterModal" aria-hidden="true">
+  <div class="modal-backdrop" data-letter-close="true"></div>
+  <article class="letter-panel" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+    <button class="modal-close" id="letterClose" aria-label="Close letter">×</button>
+    <p class="eyebrow">P.S. AND A FEW MORE THINGS</p>
+    <h2 id="letterTitle">BEFORE I FINALLY<br><em>SHUT UPPPP.</em></h2>
+    <div id="psContent" class="ps-content"></div>
+    <div class="letter-end">HAPPY BIRTHDAY AGAINNNNNNN <span>♥</span></div>
+  </article>
+</div>
+
+<audio id="backgroundMusic" src="assets/music.mp3" loop preload="auto"></audio>
+<script src="script.js"></script>
+</body>
+</html>
