@@ -6,9 +6,9 @@ A responsive birthday website built with plain HTML, CSS and JavaScript.
 
 * `index.html` is the page structure.
 * `styles.css` contains the design and responsive styling.
-* `script.js` controls the chapters, menus, letter and optional music.
+* `script.js` controls the chapters, menus, letter and background music.
 * `content.json` contains the supplied birthday letter, separated into chapters.
-* `assets` is where the optional music file belongs.
+* `assets/music.wav` is the original looping instrumental for the card.
 
 ## No photographs
 
@@ -16,7 +16,7 @@ This version intentionally contains no photographs or photo gallery.
 
 ## Music
 
-Upload an audio file that you have permission to use as `assets/music.mp3`. The track is set to loop continuously. After the password is entered, the site attempts to start the music automatically. Browsers can block autoplay in some situations, so the music control remains available to start or stop it manually. The website still works without a music file.
+The card includes an original, gentle instrumental loop at `assets/music.wav`. It attempts to start after the password is entered, when the visitor has interacted with the page. Some browsers or device settings may still block playback; use the music control in the header to start or stop it manually.
 
 ## Password screen
 
